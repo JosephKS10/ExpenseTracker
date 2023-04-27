@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Expense_Tracker</string>
+    <string name="split_bills_easily_with_expense_tracker">Split Bills easily with Expense Tracker</string>
+    <string name="todo">TODO</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_onboard">Welcome Onboard!</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="lets_get_you_set_up">Lets get you set up!</string>
+
+    <string name="sign_up">Sign Up</string>
+
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="sign_in">Sign in</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up1">Sign up</string>
+    <string name="create_group">Create Group</string>
+    <string name="join_group">Join Group</string>
+    <string name="todo1">TODO</string>
+    <string name="info">Info</string>
+    <string name="logout">Logout</string>
+    <string name="existing_groups">Existing Groups</string>
+    <string name="enter_group_name">Enter Group Name</string>
+    <string name="enter_number_of_n_participants">Enter Number of \n Participants</string>
+    <string name="enter_unique_code">Enter Unique code</string>
+    <string name="join">Join</string>
+    <string name="create">Create</string>
+    <string name="split">Split</string>
+    <string name="input">Input</string>
+</resources>

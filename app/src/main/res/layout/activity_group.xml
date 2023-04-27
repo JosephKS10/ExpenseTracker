@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/groupbg"
+    tools:context=".Group">
+
+    <ImageButton
+        android:id="@+id/creategroup"
+        android:layout_width="264dp"
+        android:layout_height="94dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/todo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.650"
+        app:srcCompat="@drawable/custom_input"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/joingroup"
+        android:layout_width="264dp"
+        android:layout_height="94dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/todo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.850"
+        app:srcCompat="@drawable/custom_input"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <TextView
+        android:id="@+id/textcreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/create_group"
+        android:textColor="#5C8064"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="@+id/creategroup"
+        app:layout_constraintEnd_toEndOf="@+id/creategroup"
+        app:layout_constraintStart_toStartOf="@+id/creategroup"
+        app:layout_constraintTop_toTopOf="@+id/creategroup" />
+
+    <TextView
+        android:id="@+id/textjoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/join_group"
+        android:textColor="#5C8064"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="@+id/joingroup"
+        app:layout_constraintEnd_toEndOf="@+id/joingroup"
+        app:layout_constraintStart_toStartOf="@+id/joingroup"
+        app:layout_constraintTop_toTopOf="@+id/joingroup" />
+
+
+
+    <ImageButton
+        android:id="@+id/setting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="showPopup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="@drawable/ic_baseline_settings_24"
+        tools:ignore="UsingOnClickInXml" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
